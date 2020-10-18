@@ -20,8 +20,8 @@
 				<p>Your url: </p>
 				<?php 
 				if($_GET['url'] != '' && $_GET['who'] != ''){
-				echo "<p><a href='https://ccrddtcdn.000webhostapp.com/tracker?url=".$_GET['url'],"&who=".$_GET['who']."'>https://ccrddtcdn.000webhostapp.com/tracker?url=".$_GET['url'],"&who=".$_GET['who']."</a>";
-				echo "Consider using a url shortner (like <a href='https://ccrddtcdn.000webhostapp.com/tracker/?url=http://bit.ly&who=createpage@local'>bit.ly</a> or <a href='https://ccrddtcdn.000webhostapp.com/tracker/?url=http://cutt.ly&who=createpage@local'>cutt.ly</a>) to shorten this.</p>";
+				echo "<p><a href='[YOUR SITE AND TRACKER.PHP LOCATION]?url=".$_GET['url'],"&who=".$_GET['who']."'>[YOUR SITE AND TRACKER.PHP LOCATION]?url=".$_GET['url'],"&who=".$_GET['who']."</a>";
+				echo "Consider using a url shortner (like <a href='[YOUR SITE AND TRACKER.PHP LOCATION]?url=http://bit.ly&who=createpage@local'>bit.ly</a> or <a href='[YOUR SITE AND TRACKER.PHP LOCATION]?url=http://cutt.ly&who=createpage@local'>cutt.ly</a>) to shorten this.</p>";
 				}
 				?>
 			</form>
